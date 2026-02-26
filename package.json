@@ -1,0 +1,26 @@
+{
+  "name": "project-dos",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto Javascript",
+  "keywords": [
+    "gym",
+    "html",
+    "javascript"
+  ],
+  "license": "MIT",
+  "author": "RodrigoDev",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "servor": "servor src/ index.html 1234 --reload",
+    "lint": "oxlint src/",
+    "format": "oxfmt src/"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.35.0",
+    "oxlint": "^1.50.0",
+    "servor": "^4.0.2"
+  },
+  "packageManager": "pnpm@10.30.3"
+}
