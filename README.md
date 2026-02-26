@@ -1,4 +1,4 @@
-## installar con pnpm:
+## instalar con pnpm:
 
 - Servor: pnpm add servor
 - live-server: pnpm add live-server
